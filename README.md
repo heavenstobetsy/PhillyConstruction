@@ -14,3 +14,5 @@ Part 1 uses Open Data Philly's API to download data from four separate data sour
 
 
 Part 2 contains the imports needed to run the project.
+
+Part 3 contains the extensive data cleaning and wrangling needed to run the analysis and models.
