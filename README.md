@@ -1,6 +1,6 @@
 # Philly Permits, Construction, and Inspections
 
-Philadelphia construction data and modeling: predicting unsafe buildings for targeted inspections.
+Philadelphia construction data and modeling: using machine learning models to predict unsafe buildings for targeted inspections.
 
 
 
