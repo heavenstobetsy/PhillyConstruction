@@ -1,4 +1,3 @@
-<script src="http://vizw.it/scripts/vizwit-embed.js"></script>
 <script src="https://raw.github.com/heavenstobetsy/PhillyConstruction/index.js"></script>
 	
 
@@ -13,6 +12,7 @@
 [Map of dangerous housing in philadelphia]
 <script src="https://raw.github.com/heavenstobetsy/PhillyConstruction/vizwit-embed.js"></script>
 </head>
+	</p>
 ### Motivation
 
 &nbsp;&nbsp;&nbsp;&nbsp;Philadelphia is a unique city. At its peak in 1960, Philadelphia was home to over two million people in 1950; due deindustrialization starting in the 1960s, along with numerous other factors, the population shrunk over the next four decades, crashing its housing market.  In the last seven years, however, Philadelphia home prices have risen almost 46%, although the consequence of its previous population decline means much of the city’s housing stock is in bad shape.  As a result, there are a large number of buildings which fail inspections, in addition to the constant new construction and renovation of a city undergoing a revival--all of which fall under Philadelphia's Department of Licenses and Inspections (L&I).
@@ -47,6 +47,9 @@ Variable Importance </p>
 &nbsp;
 &nbsp;
 &nbsp;
+<script src="http://vizw.it/scripts/vizwit-embed.js"></script>
+<script src="https://raw.github.com/heavenstobetsy/PhillyConstruction/index.js"></script>
+	
 
 ### Further Reading
 
