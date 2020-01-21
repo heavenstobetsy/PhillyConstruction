@@ -30,13 +30,17 @@ Variable Importance </p>
 
 [Fig. 4 – Scaled variable importance among predictor variables]
 
+
+### Conclusion
+
+&nbsp;&nbsp;&nbsp;&nbsp;My work isn't done yet--I plan on adjusting the model and trying to improve its accuracy even more.  I believe that open access to government data is essential, and can spur changes in government policy and methodology.  &nbsp;&nbsp;&nbsp;&nbsp;Finally, although this model tackles a small, yet serious problem, the dataset and model that I built can be tweaked for a wide array of uses. Maybe we can predicting buildings that will fail inspections multiple times, or finding neighborhood trends before they're finished? Or maybe we can recommend successful contractors to permit applicants based on their past successes, and monitor contractors who repeatedly incur code violations?
+
+&nbsp;
+&nbsp;
+&nbsp;
+
 ### Further Reading
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Philadelphia's Deadly Housing Problem](https://whyy.org/segments/renter-beware-phillys-deadly-housing-problem/)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[State of Philadelphia's Housing Market](https://www.inquirer.com/real-estate/housing/signs-of-recession-philadelphia-suburbs-housing-market-real-estate-prices-hot-20190916.html)
-
-
-### Conclusion
-
-&nbsp;&nbsp;&nbsp;&nbsp;My work isn't done yet--I plan on adjusting the model and trying to improve its accuracy even more.  I believe that open access to government data is essential, and can spur changes in government policy and methodology.  &nbsp;&nbsp;&nbsp;&nbsp;Finally, although this model tackles a small, yet serious problem, the dataset and model that I built can be tweaked for a wide array of uses. Maybe we can predicting buildings that will fail inspections multiple times, or finding neighborhood trends before they're finished? Or maybe we can recommend successful contractors to permit applicants based on their past successes, and monitor contractors who repeatedly incur code violations?
