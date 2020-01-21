@@ -39,7 +39,6 @@ Variable Importance </p>
 &nbsp;
 &nbsp;
 &nbsp;
-<script src="https://raw.github.com/heavenstobetsy/PhillyConstruction/index.js"></script>
 	
 
 ### Further Reading
