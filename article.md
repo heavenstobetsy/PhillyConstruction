@@ -21,6 +21,13 @@
 
 ### Results
 
+Baseline Accuracy
+
+Variable Importance
+I ended up pulling a large number of features, as I wasn't sure which ones would later play an important role: therefore finding variable importance was key in slimming down and prioritizing the model's features.  Below is a graph of the most important variables used in the model.
+
+[Fig. 4 – Scaled variable importance among predictor variables]
+
 ### Further Reading
 [Philadelphia's Deadly Housing Problem](https://whyy.org/segments/renter-beware-phillys-deadly-housing-problem/)
 
