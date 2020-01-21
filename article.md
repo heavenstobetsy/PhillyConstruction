@@ -26,7 +26,7 @@ Baseline Accuracy
 [Graph of false positives, etc]
 
 Variable Importance </p>
-&nbsp;&nbsp;&nbsp;&nbsp;I ended up pulling a large number of features, as I wasn't sure which ones would later play an important role: therefore finding variable importance was key in slimming down and prioritizing the model's features.  Below is a graph of the most important variables used in the model.
+&nbsp;&nbsp;&nbsp;&nbsp;I ended up pulling a large number of features, as I wasn't sure which ones would later play an important role: therefore finding variable importance was key in slimming down and improving the model.  Below is a graph of the most important variables used in the model.
 
 [Fig. 4 – Scaled variable importance among predictor variables]
 
@@ -38,3 +38,5 @@ Variable Importance </p>
 
 
 ### Conclusion
+
+&nbsp;&nbsp;&nbsp;&nbsp;My work isn't done yet--I plan on adjusting the model and trying to improve its accuracy even more.  I believe that open access to government data is essential, and can spur changes in government policy and methodology.  &nbsp;&nbsp;&nbsp;&nbsp;Finally, although this model tackles a small, yet serious problem, the dataset and model that I built can be tweaked for a wide array of uses. Maybe we can predicting buildings that will fail inspections multiple times, or finding neighborhood trends before they're finished? Or maybe we can recommend successful contractors to permit applicants based on their past successes, and monitor contractors who repeatedly incur code violations?
