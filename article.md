@@ -26,15 +26,15 @@ Baseline Accuracy
 [Graph of false positives, etc]
 
 Variable Importance
-I ended up pulling a large number of features, as I wasn't sure which ones would later play an important role: therefore finding variable importance was key in slimming down and prioritizing the model's features.  Below is a graph of the most important variables used in the model.
+&nbsp;&nbsp;&nbsp;&nbsp;I ended up pulling a large number of features, as I wasn't sure which ones would later play an important role: therefore finding variable importance was key in slimming down and prioritizing the model's features.  Below is a graph of the most important variables used in the model.
 
 [Fig. 4 – Scaled variable importance among predictor variables]
 
 ### Further Reading
 
-[Philadelphia's Deadly Housing Problem](https://whyy.org/segments/renter-beware-phillys-deadly-housing-problem/)
+&nbsp;&nbsp;&nbsp;&nbsp;[Philadelphia's Deadly Housing Problem](https://whyy.org/segments/renter-beware-phillys-deadly-housing-problem/)
 
-[State of Philadelphia's Housing Market](https://www.inquirer.com/real-estate/housing/signs-of-recession-philadelphia-suburbs-housing-market-real-estate-prices-hot-20190916.html)
+&nbsp;&nbsp;&nbsp;&nbsp;[State of Philadelphia's Housing Market](https://www.inquirer.com/real-estate/housing/signs-of-recession-philadelphia-suburbs-housing-market-real-estate-prices-hot-20190916.html)
 
 
 ### Conclusion
