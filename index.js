@@ -1,6 +1,3 @@
-<script src="http://vizw.it/scripts/vizwit-embed.js"></script>
-
-
 <div style="min-height: 230px">
   <script class="vizwit" type="application/json">
 {
