@@ -3,27 +3,9 @@
 ### Objective
 
 &nbsp;&nbsp;&nbsp;&nbsp;My objective is to create a robust model that when fed a Philadelphia Licenses and Inspections  (L&I) permit application, then predicts how dangerous or unsafe the building could be, and whether L&I inspectors should immediately follow up. By predicting which buildings have a higher likelihood of being condemned and what buildings are the most dangerous, L&I can prioritize the buildings that inspectors should focus on first--and by doing that, increase the safety of Philadelphians.  One doesn't have to look far in the news to find the [the risk of unsafe housing.](https://whyy.org/segments/renter-beware-phillys-deadly-housing-problem/)
+<script src="https://gist.github.com/heavenstobetsy/b8fb66f65156f298bb27f3268b369ebd.js"></script>
 
 
-<div style="min-height: 230px">
-  <script class="vizwit" type="application/json">
-{
-  "title": "Census Tract",
-  "provider": "carto",
-  "domain": "phl.carto.com",
-  "dataset": "li_unsafe",
-  "chartType": "choropleth",
-  "groupBy": "censustract",
-  "boundaries": "https://phl.carto.com/api/v2/sql?q=select+*+from+census_tracts_2010&format=geojson",
-  "boundariesLabel": "namelsad10",
-  "boundariesId": "name10_padded",
-  "triggerField": "censustract",
-  "baseFilters": [],
-  "filters": {},
-  "aggregateFunction": "count"
-}
-  </script>
-</div>
 [Map of dangerous housing in philadelphia]
 
 ### Motivation
