@@ -6,7 +6,7 @@
 
 </p>
 
-&nbsp;&nbsp;&nbsp;&nbsp; **_Part 1_** uses Open Data Philly's API to download data from four separate data sources: construction permits, </p>
+&nbsp;&nbsp;&nbsp;&nbsp; **_Part 1_** uses Open Data Philly's API to download data from four separate data sources: construction permits, /
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  building inspections, housing code violations, and unsafe housing code violations. 
 
 
