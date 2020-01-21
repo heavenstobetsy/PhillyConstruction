@@ -1,4 +1,4 @@
-<script src="https://raw.github.com/heavenstobetsy/PhillyConstruction/index.js"></script>
+<script src="https://gist.github.com/heavenstobetsy/PhillyConstruction/index.js"></script>
 	
 
 ### Objective
