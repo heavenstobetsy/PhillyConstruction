@@ -48,6 +48,3 @@ Variable Importance </p>
 &nbsp;&nbsp;&nbsp;&nbsp;[State of Philadelphia's Housing Market](https://www.inquirer.com/real-estate/housing/signs-of-recession-philadelphia-suburbs-housing-market-real-estate-prices-hot-20190916.html)
 
 
-	
-<head> <script src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/vizwit-embed.js"></script>
-	
