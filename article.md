@@ -1,7 +1,7 @@
 
 ### Objective
 
-&nbsp;&nbsp;&nbsp;&nbsp;My objective is to create a robust model that when fed a Philadelphia Licenses and Inspections  (L&I) permit application, then predicts how dangerous or unsafe the building could be, and whether L&I inspectors should immediately follow up. By predicting which buildings have a higher likelihood of being condemned and what buildings are the most dangerous, L&I can prioritize the buildings that inspectors should focus on first--and by doing that, increase the safety of Philadelphians.  One doesn't have to look far in the news to find the [the risk of unsafe housing.](https://whyy.org/segments/renter-beware-phillys-deadly-housing-problem/)
+&nbsp;&nbsp;&nbsp;&nbsp;My objective is to create a robust model which actively uses the Philadelphia Licenses and Inspections (L&I) permit application process as a monitoring system for potentially dangerous buildings. When fed the permit application, the model then predicts how dangerous or unsafe the building could be, and whether L&I inspectors should immediately follow up. By predicting which buildings have a higher likelihood of being condemned and what buildings are the most dangerous, L&I can prioritize the buildings that inspectors should focus on first--and by doing that, increase the safety of Philadelphians.  One doesn't have to look far in the news to find the [the risk of unsafe housing.](https://whyy.org/segments/renter-beware-phillys-deadly-housing-problem/)
 
 
 
