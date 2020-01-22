@@ -9,7 +9,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;Philadelphia is a unique city. At its peak in 1960, Philadelphia was home to over two million people in 1950; due deindustrialization starting in the 1960s, along with numerous other factors, the population shrunk over the next four decades, crashing its housing market.  In the last seven years, however, Philadelphia home prices have risen almost 46%, although the consequence of its previous population decline means much of the city’s housing stock is in bad shape.  As a result, there are a large number of buildings which fail inspections, in addition to the constant new construction and renovation of a city undergoing a revival--all of which fall under Philadelphia's Department of Licenses and Inspections (L&I).
 
-[Bar chart of permit reasons]
+
+![Bar chart of permit reason](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/permits.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;In 2019, there were over 14,000 permits issued for building and renovation in Philadelphia. These permits range from electrical work being done by contractors, to minor alterations done by homeowners, to demolitions.  The large volume of permits means that L&I can't possibly send inspectors to check on every permit or inspection request in a timely manner.  A not insignificant number of buildings in Philadelphia fail their inspections and further followups, with some buildings being declared unsafe and uninhabitable. 
 
