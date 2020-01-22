@@ -49,5 +49,5 @@ Variable Importance </p>
 
 
 	
-<script src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/vizwit-embed.js"></script>
+<head> <script src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/vizwit-embed.js"></script>
 	
