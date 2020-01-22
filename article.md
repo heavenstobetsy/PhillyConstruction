@@ -46,3 +46,7 @@ Variable Importance </p>
 &nbsp;&nbsp;&nbsp;&nbsp;[Philadelphia's Deadly Housing Problem](https://whyy.org/segments/renter-beware-phillys-deadly-housing-problem/)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[State of Philadelphia's Housing Market](https://www.inquirer.com/real-estate/housing/signs-of-recession-philadelphia-suburbs-housing-market-real-estate-prices-hot-20190916.html)
+
+
+<script src="http://vizw.it/scripts/vizwit-embed.js"></script>
+	
