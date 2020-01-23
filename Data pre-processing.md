@@ -13,7 +13,7 @@ built into a dataframe comprised of several datasets including permits, inspecti
 This includes:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Permits: data on building construction/use/update permits. <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Inspectiosn: data on cases and compliance/non-compliance follow-up. <p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Inspections: data on cases and compliance/non-compliance follow-up. <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Violations: data and descriptions of every building code violation, and risk level. <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Unsafe Violations: data and descriptions of the unsafe building code violations. <p>
 &nbsp;
