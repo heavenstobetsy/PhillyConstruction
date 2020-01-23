@@ -33,7 +33,13 @@ This chart shows the breakdown of the total number of buildings for each type of
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating dummy variables vastly increased the number of features in my dataset, which is why selecting important
 features and pruning out unimportant features for predicting is necessary.  The next post will go over pruning the features and model selection.
 
-
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project was completed by E. Johnson, and last updated in January 2020. The data I used came from the 
 City of Philadelphia Departments of Licenses and Inspections located, at [OpenDataPhilly](https://www.opendataphilly.org/). I conducted the analysis using 
 Python and used the following packages: AWS SageMaker, pandas,numpy, sklearn, matplotlib, imbalanced, xgboost, Boruta, seaborn, and waffle.
