@@ -21,7 +21,9 @@ This includes:
 <p>
 <p>
 This chart shows the breakdown of the total number of buildings for each type of data:
+  
 ![Building Counts](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/unique_counts.png)
+
 [Fig. 1 – Bar Chart of 2019 Building Counts]
 
 ## Data Wrangling
