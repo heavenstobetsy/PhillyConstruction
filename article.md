@@ -11,6 +11,8 @@
 
 
 ![Bar chart of permit reason](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/permits.png)
+[Fig. 1 – Bar Chart of Ranked Building Permits-2019]
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;In 2019, there were over 14,000 permits issued for building and renovation in Philadelphia. These permits range from electrical work being done by contractors, to minor alterations done by homeowners, to demolitions.  The large volume of permits means that L&I can't possibly send inspectors to check on every permit or inspection request in a timely manner.  A not insignificant number of buildings in Philadelphia fail their inspections and further followups, with some buildings being declared unsafe and uninhabitable. 
 
@@ -18,6 +20,7 @@
   <img src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/Inspection_outcomes.png" width="300" />
   <img src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/building_failures.png" width="400" /> 
 </p>
+[Fig. 2&3 – Donut Charts of Inspection Outcomes and Repeat Failures-2019]
 
 ### Modeling Process
 
