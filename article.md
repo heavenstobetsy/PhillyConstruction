@@ -11,7 +11,7 @@
 
 
 ![Bar chart of permit reason](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/permits.png)
-[Fig. 1 – Bar Chart of Ranked Building Permits-2019]
+[Fig. 1 – Bar Chart of 2019 Ranked Building Permits]
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;In 2019, there were over 14,000 permits issued for building and renovation in Philadelphia. These permits range from electrical work being done by contractors, to minor alterations done by homeowners, to demolitions.  The large volume of permits means that L&I can't possibly send inspectors to check on every permit or inspection request in a timely manner.  A not insignificant number of buildings in Philadelphia fail their inspections and further followups, with some buildings being declared unsafe and uninhabitable. 
@@ -20,11 +20,11 @@
   <img src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/Inspection_outcomes.png" width="300" />
   <img src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/building_failures.png" width="400" /> 
 </p>
-[Fig. 2&3 – Donut Charts of Inspection Outcomes and Repeat Failures-2019]
+[Figs. 2&3 – Donut Charts of 2019 Inspection Outcomes and Repeat Failures]
 
 ### Modeling Process
 
-&nbsp;&nbsp;&nbsp;&nbsp;I built this model using data from Philadelphia's open source data repository: [OpenDataPhilly](https://www.opendataphilly.org/). Using the city's APIs, I pulled in four large datasets: permits data, inspection data, code violation data, and unsafe violations data, which I then cleaned, aggregated, and blended together before building the model. Features from permits, inspections, and violations are used in the dataset in order to create a prediction model. The modeling process is gone over in more at my [Github](https://github.com/heavenstobetsy/PhillyConstruction), in addition to an upcoming post.
+&nbsp;&nbsp;&nbsp;&nbsp;I built this model using data from Philadelphia's open source data repository: [OpenDataPhilly](https://www.opendataphilly.org/). Using the city's APIs, I pulled in four large datasets: permits data, inspection data, code violation data, and unsafe violations data, which I then cleaned, aggregated, and blended together before building the model. Features from permits, inspections, and violations are used in the dataset in order to create a prediction model. The model was finessed further using SMOTE oversampling for balancing the data, and Boruta for feature selection to improve model quality. The modeling process is gone over in more at my [Github](https://github.com/heavenstobetsy/PhillyConstruction), in addition to an upcoming post.
 
 
 ### Results
