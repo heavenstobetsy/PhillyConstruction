@@ -36,7 +36,11 @@ N
 ## Categorical Variables
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating dummy variables vastly increased the number of features in my dataset, which is why selecting important
-features and pruning out unimportant features for predicting is necessary.  The next post will go over pruning the features and model selection.
+features and pruning out unimportant features for predicting is necessary.  
+
+<script src="https://gist.github.com/heavenstobetsy/709330453e2b7c7f587c2661689abab2.js"></script>
+
+The next post will go over pruning the features and model selection.
 
 <p>
 <p>
