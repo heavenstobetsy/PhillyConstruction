@@ -48,7 +48,7 @@ This chart shows the breakdown of the total number of buildings for each type of
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating dummy variables vastly increased the number of features in my dataset, which is why selecting important
 features and pruning out unimportant features for predicting is necessary.  See 
-[Categorical Variables](https://gist.github.com/heavenstobetsy/709330453e2b7c7f587c2661689abab2.js) for more details.  The next post will go over pruning the features and model selection.
+[Categorical Variables](https://gist.github.com/heavenstobetsy/38b48eda46dab9a134b730ebdec7d6c6) for more details.  The next post will go over pruning the features and model selection.
 
 <p>
 <p>
