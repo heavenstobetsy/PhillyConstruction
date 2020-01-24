@@ -1,13 +1,10 @@
 # import libraries
-import boto3, re, sys, math, json, os, sagemaker, urllib.request
-from sagemaker import get_execution_role
 import numpy as np                                
 import pandas as pd                               
 import matplotlib.pyplot as plt                   
 from IPython.display import Image                 
 from IPython.display import display               
-from time import gmtime, strftime                 
-from sagemaker.predictor import csv_serializer   
+from time import gmtime, strftime                
 
 import subprocess
 import sys
