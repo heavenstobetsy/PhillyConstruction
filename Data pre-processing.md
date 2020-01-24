@@ -5,7 +5,10 @@ prioritize which buildings to investigate after a building permit is submitted. 
 building would be most likely be declared unsafe and extremely hazardess and needs immediate action taken.  For a less 
 technical summary, along with my motivation and reasoning for choosing this problem see in my Medium write-up
 at [link].
-
+<p>
+ &nbsp;
+    </p>
+    
 ## Datasets
 &nbsp;&nbsp;&nbsp;&nbsp;For this model I used data from The City of Philadelphia’s Department of Licenses and Inspections. 
 To keep the data manageable, I focused on buildings with a permit submitted up to through June 2019. The L&I data was
@@ -24,18 +27,23 @@ This chart shows the breakdown of the total number of buildings for each type of
   
 ![Building Counts](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/unique_counts.png)
 [Fig. 1 – Bar Chart of 2019 Building Counts]
-
+<p>
+ &nbsp;
+    </p>
+    
 ## Data Wrangling
 
 &nbsp;&nbsp;&nbsp;&nbsp;Aggregating and merging these massive datasets while being conscious of not including future inspections and violations past the permit submit date, and then summarizing them to the permit level required massive effort. I first joined the permit and datasets on the unique ID (addresskey). After that, I did some data cleaning and removed erroneous rows and weird data.
-
+<p>
+ &nbsp;
+    </p>
 
 ## Feature Engineering
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Improving models using Feature Engineering is sometimes essential. In this case, I manually created new attributes that I believed would be predictive of a building's unsafe status.  In one case, I used a flag and some data cleaning to create a new variable that indicated when a contractor was handling the construction, or if a homeowner or another entity was responsible.  I also looked at grouping common violation descriptions by highly ranked keywords, and calculated the time between a permit submission and the building'smost recent inspection date.
 <p>
  &nbsp;
-&nbsp;
     </p>
+    
 ## Categorical Variables
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating dummy variables vastly increased the number of features in my dataset, which is why selecting important
