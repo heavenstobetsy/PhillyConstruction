@@ -35,36 +35,7 @@ import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 print('x' in np.arange(5))   #returns False, without Warning
 
-
-
-# Define IAM role
-role = get_execution_role()
-prefix = 'sagemaker/DEMO-xgboost-dm'
-containers = {'us-west-2': '433757028032.dkr.ecr.us-west-2.amazonaws.com/xgboost:latest',
-              'us-east-1': '811284229777.dkr.ecr.us-east-1.amazonaws.com/xgboost:latest',
-              'us-east-2': '825641698319.dkr.ecr.us-east-2.amazonaws.com/xgboost:latest',
-              'eu-west-1': '685385470294.dkr.ecr.eu-west-1.amazonaws.com/xgboost:latest'} 
-my_region = boto3.session.Session().region_name # set the region of the instance
-print("Success - the MySageMakerInstance is in the " + my_region + " region. You will use the " + containers[my_region] + " container for your SageMaker endpoint.")
-print(pd.datetime.now())
-
-
-
-bucket_name = 'constructiondata123' # <--- CHANGE THIS VARIABLE TO A UNIQUE NAME FOR YOUR BUCKET
-s3 = boto3.resource('s3')
-try:
-    if  my_region == 'us-east-1':
-      s3.create_bucket(Bucket=bucket_name)
-    else: 
-      s3.create_bucket(Bucket=bucket_name, CreateBucketConfiguration={ 'LocationConstraint': my_region })
-    print('S3 bucket created successfully')
-except Exception as e:
-    print('S3 error: ',e)
-    
-print('imports complete')
-
-
-
+print('imports complete') 
 
 #Installs:
 def install(lime):
@@ -73,4 +44,4 @@ def install(lime):
 def install(boruta):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
     
-       
+print('installs complete')      
