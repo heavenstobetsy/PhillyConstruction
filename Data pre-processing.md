@@ -31,13 +31,16 @@ This chart shows the breakdown of the total number of buildings for each type of
 
 
 ## Feature Engineering
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Improving models using Feature Engineering is sometimes essential. In this case, I manually created new attributes that I believed would be predictive of a building's unsafe status.  In one case, I used a flag and some data cleaning to create a new variable that indicated when a contractor was handling the construction, or if a homeowner or another entity was responsible.  I also looked at grouping common violation descriptions by highly ranked keywords, and calculated the time between a permit submission and the building'smost recent inspection date.
+
 
 ## Categorical Variables
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating dummy variables vastly increased the number of features in my dataset, which is why selecting important
 features and pruning out unimportant features for predicting is necessary.  See 
 [Categorical Variables](https://gist.github.com/heavenstobetsy/709330453e2b7c7f587c2661689abab2.js) for more details.
-
+&nbsp;
+&nbsp;
 The next post will go over pruning the features and model selection.
 
 <p>
@@ -46,7 +49,12 @@ The next post will go over pruning the features and model selection.
 <p>
 <p>
 <p>
-  
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+  </p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project was completed by E. Johnson, and last updated in January 2020. The data I used came from the 
 City of Philadelphia Departments of Licenses and Inspections located, at [OpenDataPhilly](https://www.opendataphilly.org/). I conducted the analysis using 
 Python and used the following packages: AWS SageMaker, pandas,numpy, sklearn, matplotlib, imbalanced, xgboost, Boruta, seaborn, and waffle.
