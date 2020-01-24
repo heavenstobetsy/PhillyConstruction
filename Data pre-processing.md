@@ -30,7 +30,7 @@ This chart shows the breakdown of the total number of buildings for each type of
 
 &nbsp;&nbsp;&nbsp;&nbsp;Aggregating and merging these massive datasets while being conscious of not including future inspections and violations past the permit submit date, and then summarizing them to the permit level required massive effort. I first joined the permit and datasets on the unique ID (addresskey). After that, I did some data cleaning and removed erroneous rows and weird data.
 
-N
+
 ## Feature Engineering
 
 ## Categorical Variables
