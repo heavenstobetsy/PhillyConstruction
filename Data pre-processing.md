@@ -23,7 +23,6 @@ This includes:
 This chart shows the breakdown of the total number of buildings for each type of data:
   
 ![Building Counts](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/unique_counts.png)
-
 [Fig. 1 – Bar Chart of 2019 Building Counts]
 
 ## Data Wrangling
@@ -36,9 +35,8 @@ This chart shows the breakdown of the total number of buildings for each type of
 ## Categorical Variables
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating dummy variables vastly increased the number of features in my dataset, which is why selecting important
-features and pruning out unimportant features for predicting is necessary.  
-
-<script src="https://gist.github.com/heavenstobetsy/709330453e2b7c7f587c2661689abab2.js"></script>
+features and pruning out unimportant features for predicting is necessary.  See 
+[Categorical Variables](https://gist.github.com/heavenstobetsy/709330453e2b7c7f587c2661689abab2.js) for more details.
 
 The next post will go over pruning the features and model selection.
 
