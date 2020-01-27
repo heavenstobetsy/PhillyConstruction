@@ -44,7 +44,7 @@ This chart shows the breakdown of the total number of buildings for each type of
  &nbsp;
     </p>
     
-    <p>
+    
 <p float="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/feature_importsance.png" width="300" />
   <img src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/most_feature_importanes.png" width="300" /> 
