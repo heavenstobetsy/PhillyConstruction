@@ -33,7 +33,7 @@ This chart shows the breakdown of the total number of buildings for each type of
     
 ## Data Wrangling
 
-&nbsp;&nbsp;&nbsp;&nbsp;Aggregating and merging these massive datasets while being conscious of not including future inspections and violations past the permit submit date, and then summarizing them to the permit level required massive effort. I first joined the permit and datasets on the unique ID (addresskey). After that, I did some data cleaning and removed erroneous segments and weird data.
+&nbsp;&nbsp;&nbsp;&nbsp;When aggregating and merging these massive datasets, I had to be careful of not including future inspections and violations past the permit submit date, along with other data that might bleed into and influence the model. Beyond that, I needed to summarize the datasets on multiple levels and ultimately join them to the permit/address level--both parts took up most of my time on this project. I first joined the permit and datasets on the unique ID (addresskey). After that, I did some data cleaning and removed erroneous segments and weird data.
 <p>
  &nbsp;
     </p>
@@ -47,7 +47,7 @@ This chart shows the breakdown of the total number of buildings for each type of
 ## Categorical Variables
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating dummy variables vastly increased the number of features in my dataset, which is why selecting important
-features and pruning out unimportant features for predicting is necessary.  Two categories that I added dummies to were type of permit work, and permit description, which goes into more detail on what type of construction os building use is needed.  See 
+features and pruning out unimportant features for predicting is necessary.  Two categories that I added dummies to were type of permit work, and permit description, which goes into more detail on what type of construction or building use is needed.  See 
 [Categorical Variables](https://gist.github.com/heavenstobetsy/38b48eda46dab9a134b730ebdec7d6c6) for more details.  The next post will go over pruning the features and model selection.
 
 <p>
