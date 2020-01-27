@@ -12,3 +12,5 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; building inspections, housing code violations, and unsafe housing code violations. 
 
 &nbsp;&nbsp;&nbsp;&nbsp; * **_Part 3_** contains the extensive data cleaning and wrangling needed to run the analysis and models.
+
+&nbsp;&nbsp;&nbsp;&nbsp; * **_Part 4_** contains the data modeling process and validation.
