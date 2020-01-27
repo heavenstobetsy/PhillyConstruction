@@ -34,8 +34,8 @@ Baseline Accuracy
 ![Confusion Matrix chart](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/confusion_matrix.png)
 </p>
 [Fig. 4 – Confusion matrix, breaking out model accuracy]
-
-Variable Importance </p>
+</p>
+### Variable Importance 
 &nbsp;&nbsp;&nbsp;&nbsp;I ended up pulling a large number of features, as I wasn't sure which ones would later play an important role: therefore finding variable importance was key in slimming down and improving the model.  Below is a graph of the most important variables used in the model.
 
 ![Scaled variable importance](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/feature_importsance.png)
