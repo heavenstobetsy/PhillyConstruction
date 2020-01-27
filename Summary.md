@@ -45,10 +45,13 @@ Baseline Accuracy
 ### Variable Importance 
 &nbsp;&nbsp;&nbsp;&nbsp;I ended up pulling a large number of features, as I wasn't sure which ones would later play an important role: therefore finding variable importance was key in slimming down and improving the model.  Below is a graph of the most important variables used in the model.
 
-![Scaled variable importance](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/feature_importsance.png)
-<p>
-[Fig. 5 – Scaled variable importance among predictor variables]
 
+<p>
+[Figs. 5&6 – Scaled variable importance among predictors]
+<p float="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/feature_importsance.png" width="300" />
+  <img src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/building_failures.png" width="300" /> 
+</p>
 
 ### Conclusion
 
