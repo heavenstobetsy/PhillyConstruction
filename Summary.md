@@ -24,7 +24,7 @@
 
 <p float="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/Inspection_outcomes.png" width="300" />
-  <img src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/building_failures.png" width="400" /> 
+  <img src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/building_failures.png" width="440" /> 
 </p>
 [Figs. 2&3 – Donut Charts of 2019 Inspection Outcomes and Repeat Failures]
 
