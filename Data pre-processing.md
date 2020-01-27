@@ -1,5 +1,5 @@
 
-## Building the Model
+## Building the Data
 &nbsp;&nbsp;&nbsp;&nbsp;This model is meant to act as a tool for Philadelphia’s Department of Licenses and Inspections to 
 prioritize which buildings to investigate after a building permit is submitted. Specifically, I wanted to figure out which 
 building would be most likely be declared unsafe and extremely hazardess and needs immediate action taken.  For a less 
