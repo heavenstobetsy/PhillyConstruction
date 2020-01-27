@@ -35,6 +35,7 @@ Baseline Accuracy
 </p>
 [Fig. 4 – Confusion matrix, breaking out model accuracy]
 </p>
+
 ### Variable Importance 
 &nbsp;&nbsp;&nbsp;&nbsp;I ended up pulling a large number of features, as I wasn't sure which ones would later play an important role: therefore finding variable importance was key in slimming down and improving the model.  Below is a graph of the most important variables used in the model.
 
