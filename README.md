@@ -13,4 +13,4 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp; * **_Part 3_** contains the extensive data cleaning and wrangling needed to run the analysis and models. The &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   [data pre-processing page](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Data%20pre-processing.md) contains a brief overview of the data wrangling process.
 
-&nbsp;&nbsp;&nbsp;&nbsp; * **_Part 4_** contains the data modeling process and validation.  The [data model page](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Data%20pre-processing.md) contains an overview of the data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  modeling process.
+&nbsp;&nbsp;&nbsp;&nbsp; * **_Part 4_** contains the data modeling process and validation.  The [data model page](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/data%20model.md) contains an overview of the data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  modeling process.
