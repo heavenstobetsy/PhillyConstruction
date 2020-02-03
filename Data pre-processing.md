@@ -33,7 +33,7 @@ This chart shows the breakdown of the total number of buildings for each type of
     
 ## Data Wrangling
 
-&nbsp;&nbsp;&nbsp;&nbsp;When aggregating and merging these massive datasets, I had to be careful of not including future inspections and violations past the permit submit date, along with other data that might bleed into and influence the model. Beyond that, I needed to summarize the datasets on multiple levels and ultimately join them to the permit/address level--both parts took up most of my time on this project. I first joined the permit and datasets on the unique ID (addresskey). After that, I did some data cleaning and removed erroneous segments and weird data.
+&nbsp;&nbsp;&nbsp;&nbsp;When aggregating and merging these massive datasets, I had to be careful of not including future inspections and violations past the permit submit date, along with other data that might bleed into and influence the model. Beyond that, I needed to summarize the datasets on multiple levels and ultimately join them to the permit/address level--both parts took up most of my time on this project. I first joined the permit and datasets on the unique ID (addresskey), which is used for a unique addresse/owner combination. After that, I did some data cleaning and removed erroneous segments and weird data.
 <p>
  &nbsp;
     </p>
