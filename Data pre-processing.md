@@ -60,8 +60,7 @@ This chart shows the breakdown of the total number of buildings for each type of
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating dummy variables vastly increased the number of features in my dataset, which is why selecting important
 features and pruning out unimportant features for predicting is necessary.  Two categories that I added dummies to were type of permit work, and permit description, which goes into more detail on what type of construction or building use is needed.  See 
-[Categorical Variables](https://gist.github.com/heavenstobetsy/38b48eda46dab9a134b730ebdec7d6c6) for more details.  The next post will go over pruning the features and model selection.
-
+[Categorical Variables](https://gist.github.com/heavenstobetsy/38b48eda46dab9a134b730ebdec7d6c6) for more details.  [The next post on modeling process](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/data%20model.md) will go over pruning the features and model selection.
 <p>
 <p>
 <p>
