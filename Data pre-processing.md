@@ -50,7 +50,13 @@ This chart shows the breakdown of the total number of buildings for each type of
   <img src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/most_feature_importanes.png" width="300" /> 
 	<p>
 [Figs. 1&2 – Scaled variable importance among predictors]
-		
+	
+<script src="https://gist.github.com/heavenstobetsy/38b48eda46dab9a134b730ebdec7d6c6.js"></script>
+{% gist 38b48eda46dab9a134b730ebdec7d6c6 %}
+<script src="https://gist.github.com/4505639.js?file=macroBuild.scala" type="text/javascript"></script>
+<p>
+ &nbsp;
+    </p>
 ## Categorical Variables
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating dummy variables vastly increased the number of features in my dataset, which is why selecting important
