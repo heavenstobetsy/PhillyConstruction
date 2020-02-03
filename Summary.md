@@ -83,7 +83,7 @@ Baseline Accuracy
 	
 ### Conclusion
 
-&nbsp;&nbsp;&nbsp;&nbsp;My work isn't done yet--I plan on adjusting the model and trying to improve its accuracy even more.  I believe that open access to government data is essential, and can spur changes in government policy and methodology.  &nbsp;&nbsp;&nbsp;&nbsp;Finally, although this model tackles a small, yet serious problem, the dataset and model that I built can be tweaked for a wide array of uses. What about predicting buildings that will fail inspections multiple times, or finding neighborhood trends before they're finished? Or maybe recommend successful contractors to permit applicants based on their past successes, and monitor contractors who repeatedly incur code violations?
+&nbsp;&nbsp;&nbsp;&nbsp;My work isn't done yet--I plan on adjusting the model and trying to improve its accuracy even more by improving upon the ensemle model.  I believe that open access to government data is essential, and can spur changes in government policy and methodology.  &nbsp;&nbsp;&nbsp;&nbsp;Finally, although this model tackles a small, yet serious problem, the dataset and model that I built can be tweaked for a wide array of uses. What about predicting buildings that will fail inspections multiple times, or finding neighborhood trends before they're finished? Or maybe recommend successful contractors to permit applicants based on their past successes, and monitor contractors who repeatedly incur code violations?
 
 &nbsp;
 &nbsp;
