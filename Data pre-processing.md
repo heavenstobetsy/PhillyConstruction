@@ -39,7 +39,7 @@ This chart shows the breakdown of the total number of buildings for each type of
     </p>
 
 ## Feature Engineering
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Improving models using Feature Engineering is sometimes essential. In this case, I manually created new attributes that I believed would be predictive of a building's unsafe status.  In one case, I used a flag and some data cleaning to create a new variable that indicated when a contractor was handling the construction, or if a homeowner or another entity was responsible.  I also looked at grouping common violation descriptions by highly ranked keywords, and calculated the time between a permit submission and the building'smost recent inspection date.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Improving models using Feature Engineering is sometimes essential. In this case, I manually created new attributes that I believed would be predictive of a building's unsafe status.  In one case, I used a flaggin system, along with data cleanup to create a new variable that indicated when a contractor was handling the construction, or if a homeowner or another entity was responsible.  I also looked at grouping common violation descriptions by highly ranked keywords, and calculated the time between a permit submission and the building's most recent inspection date.
 <p>
  &nbsp;
     </p>
