@@ -76,4 +76,4 @@ features and pruning out unimportant features for predicting is necessary.  Two 
   </p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project was completed by E. Johnson, and last updated in January 2020. The data I used came from the 
 City of Philadelphia Departments of Licenses and Inspections located, at [OpenDataPhilly](https://www.opendataphilly.org/). I conducted the analysis using 
-Python and used the following packages: AWS SageMaker, pandas,numpy, sklearn, matplotlib, imbalanced, xgboost, Boruta, seaborn, and waffle.
+Python and used the following packages: AWS SageMaker, pandas,numpy, sklearn, matplotlib, imbalanced, xgboost, mlens, Boruta, seaborn, and waffle.
