@@ -42,6 +42,11 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;I built this model using data from Philadelphia's open source data repository: [OpenDataPhilly](https://www.opendataphilly.org/). Using the city's APIs, I pulled in four large datasets: permits data, inspection data, code violation data, and unsafe violations data, which I then cleaned, aggregated, and blended together before building the model. Features from permits, inspections, and violations are used in the dataset in order to create a prediction model. The model was finessed further, looking at both undersampling and using SMOTE oversampling for balancing the data.  Boruta for feature selection was used to improve model quality. The modeling process is gone over in more at my [Github](https://github.com/heavenstobetsy/PhillyConstruction), in addition to an upcoming post.
 
+<p>
+
+&nbsp;
+&nbsp;
+	</p>
 
 ### Results
 
@@ -51,6 +56,12 @@ Baseline Accuracy
 </p>
 [Fig. 4 – Confusion matrix, breaking out model accuracy]
 </p>
+
+<p>
+
+&nbsp;
+&nbsp;
+	</p>
 
 ### Variable Importance 
 &nbsp;&nbsp;&nbsp;&nbsp;I ended up pulling a large number of features, as I wasn't sure which ones would later play an important role: therefore finding variable importance was key in slimming down and improving the model.  Below is a graph of the most important variables used in the model.
