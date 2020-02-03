@@ -3,7 +3,11 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;My objective is to create a robust model which actively uses the Philadelphia Licenses and Inspections (L&I) permit application process as a monitoring system for potentially dangerous buildings. When fed the permit application, the model then predicts how dangerous or unsafe the building could be, and whether L&I inspectors should immediately follow up. By predicting which buildings have a higher likelihood of being condemned and what buildings are the most dangerous, L&I can prioritize the buildings that inspectors should focus on first--and by doing that, increase the safety of Philadelphians.  One doesn't have to look far in the news to find [Philadelphia's unsafe housing risk.](https://whyy.org/segments/renter-beware-phillys-deadly-housing-problem/)
 
+<p>
 
+&nbsp;
+&nbsp;
+	</p>
 
 ### Motivation
 
@@ -28,6 +32,12 @@
 </p>
 [Figs. 2&3 – Donut Charts of 2019 Inspection Outcomes and Repeat Failures]
 
+<p>
+
+&nbsp;
+&nbsp;
+	</p>
+	
 ### Modeling Process
 
 &nbsp;&nbsp;&nbsp;&nbsp;I built this model using data from Philadelphia's open source data repository: [OpenDataPhilly](https://www.opendataphilly.org/). Using the city's APIs, I pulled in four large datasets: permits data, inspection data, code violation data, and unsafe violations data, which I then cleaned, aggregated, and blended together before building the model. Features from permits, inspections, and violations are used in the dataset in order to create a prediction model. The model was finessed further, looking at both undersampling and using SMOTE oversampling for balancing the data.  Boruta for feature selection was used to improve model quality. The modeling process is gone over in more at my [Github](https://github.com/heavenstobetsy/PhillyConstruction), in addition to an upcoming post.
@@ -54,6 +64,12 @@ Baseline Accuracy
 [Figs. 5&6 – Scaled variable importance among predictors]
 </p>
 
+<p>
+
+&nbsp;
+&nbsp;
+	</p>
+	
 ### Conclusion
 
 &nbsp;&nbsp;&nbsp;&nbsp;My work isn't done yet--I plan on adjusting the model and trying to improve its accuracy even more.  I believe that open access to government data is essential, and can spur changes in government policy and methodology.  &nbsp;&nbsp;&nbsp;&nbsp;Finally, although this model tackles a small, yet serious problem, the dataset and model that I built can be tweaked for a wide array of uses. What about predicting buildings that will fail inspections multiple times, or finding neighborhood trends before they're finished? Or maybe recommend successful contractors to permit applicants based on their past successes, and monitor contractors who repeatedly incur code violations?
