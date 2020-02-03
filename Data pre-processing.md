@@ -55,6 +55,7 @@ This chart shows the breakdown of the total number of buildings for each type of
 <p>
  &nbsp;
     </p>
+    
 ## Categorical Variables
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating dummy variables vastly increased the number of features in my dataset, which is why selecting important
