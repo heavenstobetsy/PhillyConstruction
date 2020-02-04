@@ -1,21 +1,24 @@
 
-### Objective
+### Motivation
 
-&nbsp;&nbsp;&nbsp;&nbsp;My objective is to create a robust model which actively uses the Philadelphia Licenses and Inspections (L&I) permit application process as a monitoring system for potentially dangerous buildings. When fed the permit application, the model then predicts how dangerous or unsafe the building could be, and whether L&I inspectors should immediately follow up. By predicting which buildings have a higher likelihood of being condemned and what buildings are the most dangerous, L&I can prioritize the buildings that inspectors should focus on first--and by doing that, increase the safety of Philadelphians.  One doesn't have to look far in the news to find [Philadelphia's unsafe housing risk.](https://whyy.org/segments/renter-beware-phillys-deadly-housing-problem/)
+&nbsp;&nbsp;&nbsp;&nbsp;Philadelphia is a unique city. At its peak in 1960, Philadelphia was home to over two million people in 1950; due to deindustrialization starting in the 1960s, along with numerous other factors, the population shrunk over the next four decades, crashing its housing market. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;In the last seven years, however, Philadelphia home prices have risen almost 46%, although the consequence of its previous population decline means much of the city's housing stock is in bad shape. As a result, there are a large number of buildings which fail inspections, in addition to the constant new construction and renovation of a city undergoing a revival - all of which fall under Philadelphia's Department of Licenses and Inspections (L&I).
+
+
+
+![Bar chart of permit reason](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/permits.png)
+[Fig. 1 – Bar Chart of 2019 Ranked Building Permits]
 
 <p>
 
 &nbsp;
 &nbsp;
 	</p>
+	
+### Objective
 
-### Motivation
-
-&nbsp;&nbsp;&nbsp;&nbsp;Philadelphia is a unique city. At its peak in 1960, Philadelphia was home to over two million people in 1950; due deindustrialization starting in the 1960s, along with numerous other factors, the population shrunk over the next four decades, crashing its housing market.  In the last seven years, however, Philadelphia home prices have risen almost 46%, although the consequence of its previous population decline means much of the city’s housing stock is in bad shape.  As a result, there are a large number of buildings which fail inspections, in addition to the constant new construction and renovation of a city undergoing a revival--all of which fall under Philadelphia's Department of Licenses and Inspections (L&I).
-
-
-![Bar chart of permit reason](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/permits.png)
-[Fig. 1 – Bar Chart of 2019 Ranked Building Permits]
+&nbsp;&nbsp;&nbsp;&nbsp;My objective is to create a robust model which actively uses the Philadelphia Licenses and Inspections (L&I) permit application process as a monitoring system for potentially dangerous buildings. When fed the permit application, the model then predicts how dangerous or unsafe the building could be, and whether L&I inspectors should immediately follow up. By predicting which buildings have a higher likelihood of being condemned and what buildings are the most dangerous, L&I can prioritize the buildings that inspectors should focus on first--and by doing that, increase the safety of Philadelphians.  One doesn't have to look far in the news to find [Philadelphia's unsafe housing risk.](https://whyy.org/segments/renter-beware-phillys-deadly-housing-problem/)
 
 <p>
 
