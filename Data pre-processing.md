@@ -37,9 +37,24 @@ This chart shows the breakdown of the total number of buildings for each type of
 <p>
  &nbsp;
     </p>
-
+    
+### Variable Importance 
+&nbsp;&nbsp;&nbsp;&nbsp;I ended up pulling a large number of features, as I wasn't sure which ones would later play an important role: therefore finding variable importance was key in slimming down and improving the model.  Below is a graph of the most important variables used in the model.
+<p>
+<p float="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/feature_importsance.png" width="300" />
+  <img src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/most_feature_importanes.png" width="300" /> 
+	<p>
+[Figs. 5&6 – Scaled variable importance among predictors]
+</p>
+<p>
+ &nbsp;
+    </p>
 ## Feature Engineering
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Improving models using Feature Engineering is sometimes essential. In this case, I manually created new attributes that I believed would be predictive of a building's unsafe status.  In one case, I used a flaggin system, along with data cleanup to create a new variable that indicated when a contractor was handling the construction, or if a homeowner or another entity was responsible.  I also looked at grouping common violation descriptions by highly ranked keywords, and calculated the time between a permit submission and the building's most recent inspection date.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Improving models using Feature Engineering is sometimes essential. In this case, I manually created new attributes that I believed would be predictive of a building's unsafe status.  In one case, I used a flagging system, along with data cleanup to create a new variable that indicated when a contractor was handling the construction, or if a homeowner or another entity was responsible.  I also looked at grouping common violation descriptions by highly ranked keywords, and calculated the time between a permit submission and the building's most recent inspection date.
+
+
+
 <p>
  &nbsp;
     </p>
