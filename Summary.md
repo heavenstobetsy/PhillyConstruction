@@ -1,3 +1,6 @@
+<p float="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/philly-skyline-extended.jpg" width="550" />
+</p>
 
 ### Motivation
 
@@ -18,7 +21,12 @@
 	
 ### Objective
 
-&nbsp;&nbsp;&nbsp;&nbsp;My objective is to create a robust model which actively uses the Philadelphia Licenses and Inspections (L&I) permit application process as a monitoring system for potentially dangerous buildings. When fed the permit application, the model then predicts how dangerous or unsafe the building could be, and whether L&I inspectors should immediately follow up. By predicting which buildings have a higher likelihood of being condemned and what buildings are the most dangerous, L&I can prioritize the buildings that inspectors should focus on first--and by doing that, increase the safety of Philadelphians.  One doesn't have to look far in the news to find [Philadelphia's unsafe housing risk.](https://whyy.org/segments/renter-beware-phillys-deadly-housing-problem/)
+&nbsp;&nbsp;&nbsp;&nbsp;My aim was to create a robust model which actively uses the Philadelphia Licenses and Inspections (L&I) permit application process as a monitoring system for potentially dangerous buildings. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;This model combines two aspects: the building permit process, and the building's historical inspection, violation, and permit data. Most egregious code violations are currently found by either L&I inspectors making the rounds, or complaints stemming from people's observations of a building's exterior. However, not many people who have access to a building's interior - whether it's the owner, contractor, or tenant - have the incentive or the structural knowledge to realize and complain about dangerous conditions or fire hazards. By using the permit process, we may be able to find unsafe buildings that have been overlooked by the usual system. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;How the model works: When fed a new permit application, the model predicts how dangerous or unsafe the building could be, and whether L&I inspectors should immediately follow up. By predicting which buildings have a higher likelihood of being condemned and what buildings are the most dangerous, L&I can prioritize the buildings that inspectors should focus on first - and by doing that, increase the safety of Philadelphians. One doesn't have to look far in the news to find Philadelphia's unsafe housing risk, which is why a streamlined and
+[accurate inspection process is crucial.](https://whyy.org/segments/renter-beware-phillys-deadly-housing-problem/)
 
 <p>
 
@@ -27,7 +35,9 @@
 	</p>
 ### The Permit Process
 
-&nbsp;&nbsp;&nbsp;&nbsp;In 2019, there were over 14,000 permits issued for building and renovation in Philadelphia. These permits range from electrical work being done by contractors, to minor alterations done by homeowners, to demolitions.  The large volume of permits means that L&I can't possibly send inspectors to check on every permit or inspection request in a timely manner.  A not insignificant number of buildings in Philadelphia fail their inspections and further followups, with some buildings being declared unsafe and uninhabitable. 
+&nbsp;&nbsp;&nbsp;&nbsp;In 2019, there were over 14,000 permits issued for building and renovation in Philadelphia. These permits range from electrical work being done by contractors, to minor alterations done by homeowners, to demolitions.  The large volume of permits means that L&I can't possibly send inspectors to check on every permit or inspection request in a timely manner.  
+
+&nbsp;&nbsp;&nbsp;&nbsp;A large number of buildings in Philadelphia fail their inspections and further followups, while some buildings have more drastic action being taken, and are declared unsafe and uninhabitable. 
 
 <p float="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/Inspection_outcomes.png" width="300" />
@@ -43,7 +53,15 @@
 	
 ### Modeling Process
 
-&nbsp;&nbsp;&nbsp;&nbsp;I built this model using data from Philadelphia's open source data repository: [OpenDataPhilly](https://www.opendataphilly.org/). Using the city's APIs, I pulled in four large datasets: permits data, inspection data, code violation data, and unsafe violations data, which I then cleaned, aggregated, and blended together before building the model. Features from permits, inspections, and violations are used in the dataset in order to create a prediction model. The model was finessed further, looking at both undersampling and using SMOTE oversampling for balancing the data.  Boruta for feature selection was used to improve model quality. The modeling process is gone over in more at my [Github](https://github.com/heavenstobetsy/PhillyConstruction), in addition to an upcoming post.
+&nbsp;&nbsp;&nbsp;&nbsp;I built this model using data from Philadelphia's open source data repository: [OpenDataPhilly](https://www.opendataphilly.org/). Using the city's APIs, I pulled in four large datasets: permits data, inspection data, code violation data, and unsafe violations data. I then cleaned, aggregated, and blended the data together before building the model.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Variables and aggregations from previous permits, inspections, and violations were included in the dataset - I also built custom variables in order to improve the model's prediction accuracy.
+
+&nbsp;&nbsp;&nbsp;&nbsp;When I started comparing the unsafe buildings vs "safe" buildings, the dataset was clearly unbalanced - due to the sheer volume of permits coming through the system, <1% of buildings were unsafe. Blindly throwing this data into different models might result in a high accuracy rate- of course it's easy to guess a building is safe when 99% of the time you'll be correct. However, the model will be terrible when actually trying to find the unsafe buildings.
+
+&nbsp;&nbsp;&nbsp;&nbsp;In order to correct for this, I spent some time finessing the dataset further by resampling the data. I looked at both undersampling and SMOTE in order to re-balance the data. Furthermore, since I pulled in a lot of features, as I didn't know what data would be important, I needed to prune my features so my model focused only on the important characteristics. I used Boruta for feature selection, which was used to improve model quality.
+
+&nbsp;&nbsp;&nbsp;&nbsp;When designing the actual model, I reviewed a variety of models; I then used ensemble learning to see if combining models would improve the results. For more details on the modeling process, see my [Github](https://github.com/heavenstobetsy/PhillyConstruction), in addition to an upcoming post.
 
 <p>
 
