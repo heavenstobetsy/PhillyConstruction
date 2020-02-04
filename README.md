@@ -3,7 +3,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;See my [Medium article for a more detailed write-up.](https://medium.com/@_heavenstobetsy/predicting-unsafe-housing-in-philadelphia-with-machine-learning-models-d1a364270a9c)
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;Philadelphia construction data and modeling: using machine learning models to predict unsafe buildings for targeted inspections.  [The summary page contains a high level overview of the analysis.](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Summary.md) For a more technical overview, I've broken up my analysis into separate notebooks:
+&nbsp;&nbsp;&nbsp;&nbsp;This project combines Philadelphia construction data and modeling: I use machine learning models to predict unsafe buildings for targeted inspections.  [The summary page contains a high level overview of the analysis.](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Summary.md) For a more technical overview, I've broken up my analysis into separate notebooks:
 
 &nbsp;
 
