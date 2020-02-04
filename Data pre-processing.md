@@ -3,7 +3,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;This model is meant to act as a tool for Philadelphia’s Department of Licenses and Inspections to 
 prioritize which buildings to investigate after a building permit is submitted. Specifically, I wanted to figure out which 
 building would be most likely be declared unsafe and extremely hazardess and needs immediate action taken.  For a less 
-technical summary, along with my motivation and reasoning for choosing this problem see in my Medium write-up
+technical summary, along with my motivation and reasoning for choosing this problem see
 [my Medium write-up](https://medium.com/@_heavenstobetsy/predicting-unsafe-housing-in-philadelphia-with-machine-learning-models-d1a364270a9c).
 <p>
  &nbsp;
