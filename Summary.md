@@ -55,11 +55,20 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;I built this model using data from Philadelphia's open source data repository: [OpenDataPhilly](https://www.opendataphilly.org/). Using the city's APIs, I pulled in four large datasets: permits data, inspection data, code violation data, and unsafe violations data. I then cleaned, aggregated, and blended the data together before building the model.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Variables and aggregations from previous permits, inspections, and violations were included in the dataset - I also built custom variables in order to improve the model's prediction accuracy.
+&nbsp;&nbsp;&nbsp;&nbsp;In addition to the variables and aggregations from previous permits, inspections, and violations were included in the dataset, I also built custom variables in order to improve the model's prediction accuracy.
 
-&nbsp;&nbsp;&nbsp;&nbsp;When I started comparing the unsafe buildings vs "safe" buildings, the dataset was clearly unbalanced - due to the sheer volume of permits coming through the system, <1% of buildings were unsafe. Blindly throwing this data into different models might result in a high accuracy rate- of course it's easy to guess a building is safe when 99% of the time you'll be correct. However, the model will be terrible when actually trying to find the unsafe buildings.
+&nbsp;&nbsp;&nbsp;&nbsp;When I started comparing the unsafe buildings vs "safe" buildings, the dataset was clearly unbalanced - due to the sheer volume of permits coming through the system, <1% of buildings were unsafe. Blindly throwing this data into a model might result in a high accuracy rate- of course it's easy to guess a building is safe when 99% of the time you'll be correct. However, the model will be terrible when actually trying to find the unsafe buildings.
 
-&nbsp;&nbsp;&nbsp;&nbsp;In order to correct for this, I spent some time finessing the dataset further by resampling the data. I looked at both undersampling and SMOTE in order to re-balance the data. Furthermore, since I pulled in a lot of features, as I didn't know what data would be important, I needed to prune my features so my model focused only on the important characteristics. I used Boruta for feature selection, which was used to improve model quality.
+&nbsp;&nbsp;&nbsp;&nbsp;In order to correct for this, I spent some time finessing the dataset further by resampling the data. I looked at both undersampling and SMOTE in order to re-balance the data.
+
+&nbsp;&nbsp;&nbsp;&nbsp;I ended up pulling a large number of features, as I wasn't sure which ones would later play an important role: therefore finding variable importance was key in slimming down and improving the model.  I used Boruta for feature selection, which was used to improve model quality. Below is a graph of the most important variables used in the model.
+
+![Variable Importance](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/most_feature_importanes.png)
+</p>
+[Fig. 4 – Scaled variable importance among predictors]
+</p>
+
+<p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;When designing the actual model, I reviewed a variety of models; I then used ensemble learning to see if combining models would improve the results. For more details on the modeling process, see my [Github](https://github.com/heavenstobetsy/PhillyConstruction), in addition to an upcoming post.
 
@@ -75,7 +84,7 @@ Baseline Accuracy
 
 ![Confusion Matrix chart](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/confusion_matrix.png)
 </p>
-[Fig. 4 – Confusion matrix, breaking out model accuracy]
+[Fig. 5 – Confusion matrix, breaking out model accuracy]
 </p>
 
 <p>
@@ -84,23 +93,7 @@ Baseline Accuracy
 &nbsp;
 	</p>
 
-### Variable Importance 
-&nbsp;&nbsp;&nbsp;&nbsp;I ended up pulling a large number of features, as I wasn't sure which ones would later play an important role: therefore finding variable importance was key in slimming down and improving the model.  Below is a graph of the most important variables used in the model.
 
-
-<p>
-<p float="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/feature_importsance.png" width="300" />
-  <img src="https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/most_feature_importanes.png" width="300" /> 
-	<p>
-[Figs. 5&6 – Scaled variable importance among predictors]
-</p>
-
-<p>
-
-&nbsp;
-&nbsp;
-	</p>
 	
 ### Conclusion
 
