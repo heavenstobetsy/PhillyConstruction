@@ -23,7 +23,8 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
 
 &nbsp;&nbsp;&nbsp;&nbsp;The scatter charts below show how SMOTE resamples data to make new data points. The blue points belong to the majority class, while the orange points belong to the minority class. In the second chart, you can see the additional data that has been generated for the minority class.
 
-
+![Pre-SMOTE](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/pre_smote.png)
+![SMOTE](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/smote.png)
 
 
 <p>
