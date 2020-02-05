@@ -51,6 +51,8 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
 ## Choosing a Model
 &nbsp;&nbsp;&nbsp;&nbsp;After pruning unneeded features with Boruta, I randomly split the data into test and training sets, with 70% of the data assigned to a training set and 30% assigned to the test set.
 
+![Test train split](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/test_train.png)
+
 <p>
  &nbsp;
     </p>
