@@ -1,29 +1,25 @@
 
 ## Building the Data
-&nbsp;&nbsp;&nbsp;&nbsp;This model is meant to act as a tool for Philadelphia’s Department of Licenses and Inspections to 
-prioritize which buildings to investigate after a building permit is submitted. Specifically, I wanted to figure out which 
-building would be most likely be declared unsafe and extremely hazardess and needs immediate action taken.  For a less 
-technical summary, along with my motivation and reasoning for choosing this problem see
+&nbsp;&nbsp;&nbsp;&nbsp;This model is meant to act as a tool for Philadelphia's Department of Licenses and Inspections to prioritize which buildings to investigate after a building permit is submitted. Specifically, I wanted to figure out which buildings would be most likely be declared unsafe and extremely hazardous - where immediate action needs to be taken. For a less technical summary, along with my motivation and reasoning for choosing this problem, see
 [my Medium write-up](https://medium.com/@_heavenstobetsy/predicting-unsafe-housing-in-philadelphia-with-machine-learning-models-d1a364270a9c).
 <p>
  &nbsp;
     </p>
     
-## Datasets
-&nbsp;&nbsp;&nbsp;&nbsp;For this model I used data from The City of Philadelphia’s Department of Licenses and Inspections. 
-To keep the data manageable, I focused on buildings with a permit submitted up to through June 2019. The L&I data was
-built into a dataframe comprised of several datasets including permits, inspections, code violations, and unsafe violations. 
-This includes:
+## Raw Datasets
+&nbsp;&nbsp;&nbsp;&nbsp;For this model I used data from The City of Philadelphia's Department of Licenses and Inspections. I focused on buildings with a permit submitted up to June 2019 in order to keep the data manageable; I also wanted to collect an extra 6+ months of code violation/unsafe status data after the last permit date - having the same date for the permit cutoff and the unsafe status cutoff might result in erroneous data.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Permits: data on building construction/use/update permits. <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Inspections: data on cases and compliance/non-compliance follow-up. <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Violations: data and descriptions of every building code violation, and risk level. <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Unsafe Violations: data and descriptions of the unsafe building code violations. <p>
+&nbsp;&nbsp;&nbsp;&nbsp;The L&I data was built into a dataframe comprised of several datasets, which includes data about permits, inspections, code violations, and unsafe violations. The four separate data sources are summarized below:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Permits:* data on building construction/use/update permits. <p></p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Inspections:* data on L&I inspection cases and compliance/non-compliance follow-up.. <p></p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Violations:* data and descriptions of every building code violation, and risk level. <p></p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Unsafe Violations:* data and descriptions of the unsafe building code violations. <p></p>
 &nbsp;
 &nbsp;
 <p>
 <p>
-This chart shows the breakdown of the total number of buildings for each type of data:
+The chart below shows the breakdown of the total number of buildings for each type of data. There are ~80,000 buildings with submitted permits, and (thankfully) relatively few unsafe buildings.
   
 ![Building Counts](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/unique_counts.png)
 [Fig. 1 – Bar Chart of 2019 Building Counts]
@@ -33,11 +29,16 @@ This chart shows the breakdown of the total number of buildings for each type of
     
 ## Data Wrangling
 
-&nbsp;&nbsp;&nbsp;&nbsp;When aggregating and merging these massive datasets, I had to be careful of not including future inspections and violations past the permit submit date, along with other data that might bleed into and influence the model. Beyond that, I needed to summarize the datasets on multiple levels and ultimately join them to the permit/address level--both parts took up most of my time on this project. I first joined the permit and datasets on the unique ID (addresskey), which is used for a unique addresse/owner combination. After that, I did some data cleaning and removed erroneous segments and weird data.
+&nbsp;&nbsp;&nbsp;&nbsp;When aggregating and merging these massive datasets, I had to be careful to not include future inspections and violations past the permit submission date, along with other data that might bleed into and influence the model.
+&nbsp;&nbsp;&nbsp;&nbsp;Beyond that, I needed to summarize the datasets on multiple levels and ultimately join them to the permit/address level - both parts took up the majority of my time on this project, due to the sheer size of the data, along with errors and messiness in the data.
+&nbsp;&nbsp;&nbsp;&nbsp;To connect the data, I first joined the permit and inspection datasets on a unique ID (addresskey), which is used for a unique address/owner combination. After that, I cleaned the data and removed erroneous entries, weird data, and combined L&I's outdated segmentation.
+
+&nbsp;&nbsp;&nbsp;&nbsp;After building a clean, aggregated file for permit and inspection data, I then moved on to cleaning, aggregating, and merging code violation data - and then the same with unsafe building data.
+
+&nbsp;&nbsp;&nbsp;&nbsp;I was hoping to add in property complaint and violation fee data, but (probably for good reason) building complaints and fees are generalized as street blocks, and not actual addresses. Still, that didn't prevent me from trying to connect the datasets using GPS coordinates and various infraction/case resolution dates. However, I was ultimately unsuccessful (again, probably for the best).
 <p>
  &nbsp;
     </p>
-    
 ### Variable Importance 
 &nbsp;&nbsp;&nbsp;&nbsp;I ended up pulling a large number of features, as I wasn't sure which ones would later play an important role: therefore finding variable importance was key in slimming down and improving the model.  Below is a graph of the most important variables used in the model.
 <p>
