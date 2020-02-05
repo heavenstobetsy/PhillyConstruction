@@ -18,4 +18,4 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp; * **_Part 3_** contains the extensive data cleaning and wrangling needed to run the analysis and models. The &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   [My data pre-processing article](https://medium.com/@_heavenstobetsy/predicting-unsafe-housing-in-philadelphia-data-pre-processing-42e13bf72c8d) contains an overview of the data cleaning and blending process.
 
-&nbsp;&nbsp;&nbsp;&nbsp; * **_Part 4_** contains the data modeling process and validation.  The WIP [data model page](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/data%20model.md) will contain an overview of &nbsp;&nbsp;&nbsp;&nbsp;the data modeling process.
+&nbsp;&nbsp;&nbsp;&nbsp; * **_Part 4_** contains the data modeling process and validation.  The WIP [data model page](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/data%20model.md) will contain an overview of &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the data modeling process.
