@@ -39,7 +39,9 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
 
 &nbsp;&nbsp;&nbsp;&nbsp;To prune features, I used Boruta, which is package available for both python and R. Boruta is a wrapper built around the random forest classification algorithm, which assists in capturing potentially valuable features in the dataset with respect to the outcome variable. Boruta then goes through multiple iterations to determine whether a feature is worth keeping.
 
+![Boruta part I](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/boruta_gist1.png)
 
+![Boruta part II](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/boruta_gist2.png)
 
 
 <p>
@@ -47,7 +49,7 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
     </p>
 
 ## Choosing a Model
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;After pruning unneeded features with Boruta, I randomly split the data into test and training sets, with 70% of the data assigned to a training set and 30% assigned to the test set.
 
 <p>
  &nbsp;
