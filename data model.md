@@ -27,12 +27,21 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
 ![SMOTE](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/smote.png)
 
 
+&nbsp;&nbsp;&nbsp;&nbsp;Ultimately, I found that 1) Feature selection with SMOTE takes a lot of time and 2) while the precision is high using SMOTE, recall is poor. So why did SMOTE perform so poorly in this example? [This paper](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-106) suggests that SMOTE performs poorly when given high-dimensional class-imbalanced data - which is exactly the type of data that we have.
+
 <p>
  &nbsp;
     </p>
     
 ## Feature Selection with Boruta
-&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;When building a model, it can be hard it is to identify which features are important and which are just noise - useless data which can interfere with training. Increasingly, high-dimensional data has become the new normal and pruning features has become a necessity. Removing noisy features will help reduce training time and improve the accuracy of a model - in addition, removing features will help avoid  model overfitting.
+
+&nbsp;&nbsp;&nbsp;&nbsp;To prune features, I used Boruta, which is package available for both python and R. Boruta is a wrapper built around the random forest classification algorithm, which assists in capturing potentially valuable features in the dataset with respect to the outcome variable. Boruta then goes through multiple iterations to determine whether a feature is worth keeping.
+
+
+
+
 <p>
  &nbsp;
     </p>
