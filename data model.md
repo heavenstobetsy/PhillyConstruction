@@ -33,6 +33,14 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
  &nbsp;
     </p>
     
+
+## Normalizing Features
+
+    <p>
+ &nbsp;
+    </p>
+    
+    
 ## Feature Selection with Boruta
 
 &nbsp;&nbsp;&nbsp;&nbsp;When building a model, it can be hard it is to identify which features are important and which are just noise - useless data which can interfere with training. Increasingly, high-dimensional data has become the new normal and pruning features has become a necessity. Removing noisy features will help reduce training time and improve the accuracy of a model - in addition, removing features will help avoid  model overfitting.
