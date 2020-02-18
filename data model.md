@@ -81,3 +81,10 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
  &nbsp;
     </p>
     
+ ## Notes on Cross Validation
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<p>
+ &nbsp;
+    </p>
+    
