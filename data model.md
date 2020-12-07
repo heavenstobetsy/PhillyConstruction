@@ -33,15 +33,8 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
  &nbsp;
     </p>
     
-
-## Normalizing Features
-
-    <p>
- &nbsp;
-    </p>
     
-    
-## Splitting the Data, then Feature Selection with Boruta
+## Splitting the Data, Normalization, then Feature Selection with Boruta
 
 &nbsp;&nbsp;&nbsp;&nbsp;Before pruning unneeded features with Boruta, I randomly split the data into test and training sets, with 70% of the data assigned to a training set and 30% assigned to the test set.  
 
