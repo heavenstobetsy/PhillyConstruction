@@ -41,7 +41,11 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
     </p>
     
     
-## Feature Selection with Boruta
+## Splitting the Data, then Feature Selection with Boruta
+
+&nbsp;&nbsp;&nbsp;&nbsp;Before pruning unneeded features with Boruta, I randomly split the data into test and training sets, with 70% of the data assigned to a training set and 30% assigned to the test set.  
+
+![Test train split](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/test_train.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;When building a model, it can be hard it is to identify which features are important and which are just noise - useless data which can interfere with training. Increasingly, high-dimensional data has become the new normal and pruning features has become a necessity. Removing noisy features will help reduce training time and improve the accuracy of a model - in addition, removing features will help avoid  model overfitting.
 
@@ -56,16 +60,8 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
  &nbsp;
     </p>
 
-## Choosing a Model
-&nbsp;&nbsp;&nbsp;&nbsp;After pruning unneeded features with Boruta, I randomly split the data into test and training sets, with 70% of the data assigned to a training set and 30% assigned to the test set.
 
-![Test train split](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/test_train.png)
-
-<p>
- &nbsp;
-    </p>
-
-## Model Types
+## Choosing a Model: Model Types
 &nbsp;&nbsp;&nbsp;&nbsp;I tried out a series of different types of models:  from the most basic model - logistic regression - to XGBoost. I used ROC AUC/AUROC as one of the main criteria for determining the best model. AUROC is a good choice for a classifier problem, as it gives a sense of how well the classifier can be tuned to be more or less sensitive - and can also get the best outcomes by changing the class threshold.
 
 
