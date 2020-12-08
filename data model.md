@@ -54,34 +54,8 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
     </p>
 
 
-## Choosing a Model: Model Types
+## Choosing a Model: Model Types, Ensemble Learning, & Hyperparameter Optimization 
 &nbsp;&nbsp;&nbsp;&nbsp;I tried out a series of different types of models:  from the most basic model - logistic regression - to XGBoost. I used ROC AUC/AUROC as one of the main criteria for determining the best model. AUROC is a good choice for a classifier problem, as it gives a sense of how well the classifier can be tuned to be more or less sensitive - and can also get the best outcomes by changing the class threshold.
 
 
 
-<p>
- &nbsp;
-    </p>
- 
- ## Hyperparameter Optimization 
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-<p>
- &nbsp;
-    </p>
-    
-    
- ## Ensemble Learning
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-<p>
- &nbsp;
-    </p>
-    
- ## Notes on Cross Validation
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-<p>
- &nbsp;
-    </p>
-    
