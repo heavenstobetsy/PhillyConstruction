@@ -34,9 +34,11 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
     </p>
     
     
-## Splitting the Data, Normalization, then Feature Selection with Boruta
+## Splitting the Data, Pre-processing, then Feature Selection with Boruta
 
 &nbsp;&nbsp;&nbsp;&nbsp;Before pruning unneeded features with Boruta, I randomly split the data into test and training sets, with 70% of the data assigned to a training set and 30% assigned to the test set.  
+&nbsp;&nbsp;&nbsp;&nbsp;In addition, I standardized the data using StandardScaler from sklearn.   StandardScaler transforms my dataset, so that each features' distribution will have a mean value 0 and standard deviation of 1. 
+
 
 ![Test train split](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/test_train.png)
 
