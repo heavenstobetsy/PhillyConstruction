@@ -57,9 +57,18 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
 
 
 ## Choosing a Model: Model Types, Ensemble Learning, & Hyperparameter Optimization 
-&nbsp;&nbsp;&nbsp;&nbsp;I tried out a series of different types of models:  from the most basic model - logistic regression - to XGBoost - to ensemble learning. Ensemble learning combines the predictions from multiple models to reduce the variance of predictions and reduce generalization error. However, for an ensemble strategy to work, prediction errors must be relatively uncorrelated.
 
-I used ROC AUC/AUROC as one of the main criteria for determining the best model. AUROC is a good choice for a classifier problem, as it gives a sense of how well the classifier can be tuned to be more or less sensitive - and can also get the best outcomes by changing the class threshold.
-
+&nbsp;&nbsp;&nbsp;&nbsp;I used ROC AUC/AUROC as one of the main criteria for determining the best model. AUROC is a good choice for a classifier problem, as it gives a sense of how well the classifier can be tuned to be more or less sensitive - and can also get the best outcomes by changing the class threshold.
 
 ![AUC ROC Scores](https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/Model%20Scores%20(ROC-AUC).png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;While trying to find the best model, I tried out a variety of different types of models:  from the most basic model - logistic regression - to XGBoost - to ensemble learning. For the initial review,  the XGBClassifier performed the best with a score of 0.919. Translating the model to actual predictions results in the predicions below.
+
+![XGB Initial Results](https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/XGB%20Initial%20Results.png)
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;However, I wanted to try to see if ensemble learning could perform better. Ensemble learning combines the predictions from multiple models to reduce the variance of predictions and reduce generalization error. However, for an ensemble strategy to work, prediction errors must be relatively uncorrelated.
+
+
+
+
