@@ -87,4 +87,6 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
 
 ![Confusion Matrix](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/confusion_matrix.png)
 
+&nbsp;&nbsp;&nbsp;&nbsp;At the start of this project, my goal was to create a model that could predict the safety of buildings when a construction application was submitted.  Due to the volume of construction permit submissions and the history of collapsing houses in Philadelphia, there's a pressing need for a targeted list which would allow building inspectors to focus on preventing immediate dangers. Open source government data can provide unique opportunities to create economic improvements, unearth undiscovered issues, and even save lives.  The city of Philadelphia's policy on open data and accessibility is commendable, and one that more local governments should follow.
+
 
