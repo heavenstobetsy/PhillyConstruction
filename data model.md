@@ -73,4 +73,6 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
 
 ![Correlation Matrix](https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/Correlation_matrix.png)
 
-
+https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/Emsemble_ROC_Curve.png
+https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/model_performance_rank.png
+https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/Final_Ensemble_Score.png
