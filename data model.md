@@ -62,4 +62,4 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
 I used ROC AUC/AUROC as one of the main criteria for determining the best model. AUROC is a good choice for a classifier problem, as it gives a sense of how well the classifier can be tuned to be more or less sensitive - and can also get the best outcomes by changing the class threshold.
 
 
-
+![AUC ROC Scores](https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/Model%20Scores%20(ROC-AUC).png)
