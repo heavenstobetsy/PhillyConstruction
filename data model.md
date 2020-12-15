@@ -62,7 +62,7 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
 
 ![AUC ROC Scores](https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/Model%20Scores%20(ROC-AUC).png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;While trying to find the best model, I tried out a variety of different types of models:  from the most basic model - logistic regression - to XGBoost - to ensemble learning. For the initial review,  the XGBClassifier performed the best with a score of 0.919. Translating the model to actual predictions results in the predicions below.
+&nbsp;&nbsp;&nbsp;&nbsp;While trying to find the best model, I tried out a variety of different types of models:  from the most basic model - logistic regression - to XGBoost - to ensemble learning. For the initial review, the XGBClassifier performed the best with a score of 0.919. Translating the model to actual predictions results in the predicions below.
 
 ![XGB Initial Results](https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/XGB%20Initial%20Results.png)
 
@@ -73,6 +73,9 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
 
 ![Correlation Matrix](https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/Correlation_matrix.png)
 
-https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/Emsemble_ROC_Curve.png
-https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/model_performance_rank.png
-https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/Final_Ensemble_Score.png
+&nbsp;&nbsp;&nbsp;&nbsp;The two charts below show how each model performs separately, and how they rank against each other.
+![Ensemble ROC Curve](https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/Emsemble_ROC_Curve.png)
+![Model Performace Rank](https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/model_performance_rank.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;After pruning three of the lower performing models, the final score is 0.914--so almost as good as the XGBClassifier model.
+![Final Ensemble Score](https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/Final_Ensemble_Score.png)
