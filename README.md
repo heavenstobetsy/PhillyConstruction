@@ -16,6 +16,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp; * **_Part 2_** uses Open Data Philly's API to download data from four separate data sources: construction permits,  
 building inspections, housing code violations, and unsafe housing code violations. 
 
-&nbsp;&nbsp;&nbsp;&nbsp; * **_Part 3_** contains the extensive data cleaning and wrangling needed to run the analysis and models. &nbsp;&nbsp;[My data pre-processing article](https://medium.com/@_heavenstobetsy/predicting-unsafe-housing-in-philadelphia-data-pre-processing-42e13bf72c8d) contains an overview of the data cleaning and blending process.
+&nbsp;&nbsp;&nbsp;&nbsp; * **_Part 3_** contains the extensive data cleaning and wrangling needed to run the analysis and models. &nbsp;[My data pre-processing article](https://medium.com/@_heavenstobetsy/predicting-unsafe-housing-in-philadelphia-data-pre-processing-42e13bf72c8d) contains an overview of the data cleaning and blending process.
 
-&nbsp;&nbsp;&nbsp;&nbsp; * **_Part 4_** contains the data modeling process and validation.  The [data model page](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/data%20model.md) contains an overview of &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the data modeling process.
+&nbsp;&nbsp;&nbsp;&nbsp; * **_Part 4_** contains the data modeling process and validation.  The [data model page](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/data%20model.md) contains an overview of the data modeling process.
