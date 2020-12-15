@@ -69,6 +69,8 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
 
 &nbsp;&nbsp;&nbsp;&nbsp;However, I wanted to try to see if ensemble learning could perform better. Ensemble learning combines the predictions from multiple models to reduce the variance of predictions and reduce generalization error. However, for an ensemble strategy to work, prediction errors must be relatively uncorrelated.
 
+&nbsp;&nbsp;&nbsp;&nbsp;Based on the correlation matrix below, scores are low which shows promise for the ensemble model.  The matrix looks at error correlations on a class prediction basis--whether a building is scored unsafe or not.
 
+![Correlation Matrix](https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/Correlation_matrix.png)
 
 
