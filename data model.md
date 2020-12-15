@@ -81,7 +81,10 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
 &nbsp;&nbsp;&nbsp;&nbsp;After pruning three of the lower performing models, the final score is 0.914--so almost as good as the XGBClassifier model.  
 ![Final Ensemble Score](https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/Final_Ensemble_Score.png)
 
-## Next Steps
+## Next Steps & Wrap Up
 
-&nbsp;&nbsp;&nbsp;&nbsp;There are a few ways to continue to improve the model--I can use hyperparameter optimization to fine tune the model, and continue further with the ensemble model. To continue with this,  I will use the [ML-Ensemble package](http://ml-ensemble.com/info/index.html#) to build a SuperLearner model.  
+&nbsp;&nbsp;&nbsp;&nbsp;There are a few ways to continue to improve the model--I can use hyperparameter optimization to fine tune the model, and continue further with the ensemble model. To continue with this,  I will use the [ML-Ensemble package](http://ml-ensemble.com/info/index.html#) to build a SuperLearner model. For the moment, a high level chart of the results is below.
+
+![Confusion Matrix](https://github.com/heavenstobetsy/PhillyConstruction/blob/master/Charts/confusion_matrix.png)
+
 
