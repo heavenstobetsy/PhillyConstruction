@@ -74,8 +74,10 @@ Looking at the shape of the dataset, it's clear that it's very imbalanced - 
 ![Correlation Matrix](https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/Correlation_matrix.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;The two charts below show how each model performs separately, and how they rank against each other.
+
 ![Ensemble ROC Curve](https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/Emsemble_ROC_Curve.png)
 ![Model Performace Rank](https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/model_performance_rank.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;After pruning three of the lower performing models, the final score is 0.914--so almost as good as the XGBClassifier model.
+&nbsp;&nbsp;&nbsp;&nbsp;After pruning three of the lower performing models, the final score is 0.914--so almost as good as the XGBClassifier model.  There are a few ways to continue to improve the model--I can use hyperparameter optimization to fine tune the model, and continue further with the ensemble model. To continue with this,  I would use the [ML-Ensemble package](http://ml-ensemble.com/info/index.html#) to build a SuperLearner model.
+
 ![Final Ensemble Score](https://raw.githubusercontent.com/heavenstobetsy/PhillyConstruction/master/Charts/Final_Ensemble_Score.png)
