@@ -14,7 +14,11 @@
 [Fig. 1 – Bar Chart of 2019 Ranked Building Permits]
 
 <p>
+	
+&nbsp;&nbsp;&nbsp;&nbsp;I developed this dataset and project for several reasons, one of which was the complexity and messiness of the data.  This project required extensive cleaning, aggregating, and pre-processing of several datasets before it was useable. Not only is it a real-life problem that can be solved, but there was no guide or pre-constructed and cleaned dataset that thousands of people have already run through. 
 
+&nbsp;&nbsp;&nbsp;&nbsp;In real life, data is often messy and ugly--even in the tech world! I firmly believe that one of the best skills a data scientist can develop is the ability to turn a vague idea and messy dataset into a solvable problem.
+	
 &nbsp;
 &nbsp;
 	</p>
